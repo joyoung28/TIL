@@ -41,7 +41,7 @@ console.log(arr.length); //3
 const arr = [];
 console.log(arr.length); //0
 
-const arr = [, , 3]; //희소 배열
+const arr = [1, , 3]; //희소 배열
 console.log(arr.length); //3
 console.log(arr); //[1, empty, 3]
 console.log(arr[1]); // undefined
